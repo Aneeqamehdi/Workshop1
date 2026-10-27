@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workshop 04 - Animals and the DOM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Workshop 04 - Animals and the DOM</h1>
+   
+
+    <button id="toggleTableBtn">Show / hide table</button>
+    <table id="infoTable">
+      <tr><th>Animal fact</th></tr>
+      <tr><td>Elephants are the world's largest land animals.</td></tr>
+    </table>
+
+    <section>
+      <h2 id="task1Heading">Task 1: Changing content</h2>
+      <button id="headingBtn">Change heading</button>
+      <button id="styleBtn">Change style</button>
+      <button id="animalTextBtn">Change animal text</button>
+      <button id="addSentenceBtn">Add sentence</button>
+      <button id="backgroundBtn">Change background</button>
+      <p id="animalText">Elephants are the world's largest land animals.</p>
+    </section>
+
+    <section>
+      <h2>Task 2: Creating elements with JavaScript</h2>
+      <p>The heading, paragraph and image below are created in JavaScript.</p>
+      <div id="animalContent"></div>
+      <button id="hideAnimalBtn">Hide animal</button>
+      <button id="showAnimalBtn">Show animal</button>
+    </section>
+
+    <section>
+      <h2>Task 3: Selecting an animal</h2>
+      <label for="animalSelect">Select an animal:</label>
+      <select id="animalSelect">
+        <option value="elephant">Elephant</option>
+        <option value="tiger">Tiger</option>
+        <option value="penguin">Penguin</option>
+        <option value="panda">Panda</option>
+      </select>
+
+      <h3 id="selectedAnimalName">Elephant</h3>
+      <img id="selectedAnimalImage" src="elephant.png" alt="Elephant standing in grass">
+      <p id="selectedAnimalDescription">Elephants are the world's largest land animals.</p>
+    </section>
+
+    <section>
+      <h2>Task 4: Adding animal observations</h2>
+      <form id="observationForm">
+        <label for="animalInput">Animal:</label>
+        <input id="animalInput" type="text">
+
+        <label for="locationInput">Location:</label>
+        <input id="locationInput" type="text">
+
+        <label for="dateInput">Date:</label>
+        <input id="dateInput" type="date">
+
+        <button type="submit">Add observation</button>
+        <p id="formMessage"></p>
+      </form>
+
+      <table id="observationTable">
+        <thead>
+          <tr><th>Animal</th><th>Location</th><th>Date</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Squirrel</td><td>Park</td><td>10 October 2026</td></tr>
+          <tr><td>Hare</td><td>Forest</td><td>11 October 2026</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

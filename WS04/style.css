@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef5e9;
+  color: #222;
+  margin: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #aaa;
+}
+
+h1 {
+  color: darkgreen;
+}
+
+section {
+  border-top: 2px solid #8aad78;
+  margin-top: 30px;
+  padding-top: 15px;
+}
+
+button {
+  background-color: #d8ead0;
+  border: 1px solid #56734a;
+  padding: 8px 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c0ddb5;
+}
+
+.highlight {
+  color: white;
+  background-color: darkgreen;
+  padding: 8px;
+}
+
+.animal-heading {
+  color: #8b4513;
+}
+
+img {
+  width: 250px;
+  max-width: 100%;
+  border: 3px solid #aaa;
+  transition: 0.2s;
+}
+
+.image-highlight {
+  border: 6px solid orange;
+  transform: scale(1.03);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, select {
+  padding: 7px;
+  margin: 4px 0 8px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 15px;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #555;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #d8ead0;
+}
+
+#formMessage {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
