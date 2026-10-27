@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Events Exercises</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JavaScript Events Exercises</h1>
+
+  <hr>
+  <h2 id="exercise1">Exercise 1: Basic Click Events</h2>
+  <button onclick="alert('You clicked me!')">Click me</button>
+  <button onclick="showTable()">Show Animal table</button>
+  <div id="tableContainer"></div>
+
+  <hr>
+  <h2 id="exercise2">Exercise 2: Event Listeners and DOM Manipulation</h2>
+  <p>Move the mouse over the Exercise 2 heading. Click the Exercise 1 heading. Press F12 to see function working.</p>
+
+  <hr>
+  <h2>Exercise 3 & 4: Feedback Form</h2>
+  <form id="feedbackForm">
+    <label for="feedback">Feedback:</label><br>
+    <textarea id="feedback" rows="5" cols="40" maxlength="200"></textarea><br>
+    <span id="charcount">0/200</span>
+    <p id="status"></p>
+    <button type="submit">Send</button>
+  </form>
+
+  <h3>Preview</h3>
+  <p id="preview">(The preview will appear here)</p>
+
+  <hr>
+  <h2>Exercise 5: Keyboard Events</h2>
+  <p>Press any key...</p>
+  <div id="keybox">?</div>
+  <p id="keyinfo">No key pressed yet.</p>
+  <p>Key presses: <span id="keycount">0</span></p>
+  <p>Modifiers: <span id="modifiers">None</span></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
