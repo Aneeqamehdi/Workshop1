@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+h1 {
+  color: #333;
+}
+
+input {
+  padding: 8px;
+  width: 65%;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+#error {
+  color: red;
+}
+
+.invalid {
+  border: 2px solid red;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.task-text {
+  margin-right: 10px;
+}
+
+.completed .task-text {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.filters {
+  margin-top: 20px;
+}
